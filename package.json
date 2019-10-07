@@ -1,11 +1,17 @@
 {
-  "name": "nodejs-practice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "nodejs-practice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Kris Lafrance",
+	"license": "ISC",
+	"dependencies": {
+		"uuid": "^3.3.3"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.3"
+	}
 }
